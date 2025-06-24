@@ -1,0 +1,29 @@
+Question 1 : 
+
+houses = {
+    {4,5,1},
+    {4,6,7},
+    {4,8,9}
+}
+
+colors = {
+    {a,b,c},
+    {d,e,f},
+    {g,h,i}
+}
+
+no duplicate values in neighbouring houses 
+->size of all neighboring houes are same 
+
+return the sorted neighbourhood 
+
+ex : (return) => {
+    {1,4,5}
+    {4,6,7}
+    {4,8,9}
+}
+
+approach : 
+->sort the array (nlogn)
+->if repeated fill in the next row 
+

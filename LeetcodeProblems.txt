@@ -1,0 +1,45 @@
+Leetcode 540    (done)
+
+#Find an number k given an infinite numer of sorted stream
+#Koko eating bananas
+
+#leetcode 410 : split array largest sum 
+#search in 2d matrix 2 
+
+
+#given an integer n , find all x with unique digits 
+#search in rotated sorted arary 1 and 2
+#aggresive cows 
+
+question : 
+leetcode 784 : [a,1,b,2] ,,,,,string ends with letter/capital/numbers 
+#leetcode 1006 : clumsy factorail
+
+
+topic : gcd 
+topic : extended euclidean algorithm
+
+an array contains various multiplication of all values % m divided by 3.
+calculate twin primes 
+
+->calculate all prime numbers where n = a+b+c+d.
+if n < 8 , we can't break it 
+if even , we take 2,2 (n=4) once else we take 2,3 (n=5) 
+then we will use seive 
+
+->min no of operatins to make a and b equal 
+   ->valid operation = divisible by prime factor 
+    Solve : get hcf and then divide both by hcf
+    ->if a and b are equal , then 0 operations
+    ->if a and b are not equal , then we will get the hcf of both
+    ->then we will divide both a and b by hcf
+    ->then we will get the no of operations required to make a and b equal
+    code : 
+
+
+->I m given number k , calculate how many pairs of x,y can be made 
+->I m given a number n , i have guess k , return 
+the min no of queries for finding k , k can change 
+anytime during the question.
+
+->Find xor without using xor operator 
